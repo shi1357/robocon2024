@@ -3,90 +3,171 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的网站</title>
+    <title>西南科技大学 Robocon 2024 机器人小组</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- 导航栏 -->
     <nav class="navbar">
-        <div class="logo">我的网站</div>
+        <div class="logo">
+            <span class="logo-icon">🤖</span>
+            SWUST Robocon
+        </div>
         <ul class="nav-links">
             <li><a href="#home">首页</a></li>
-            <li><a href="#about">关于</a></li>
-            <li><a href="#services">服务</a></li>
-            <li><a href="#contact">联系</a></li>
+            <li><a href="#about">比赛介绍</a></li>
+            <li><a href="#robot">机器人</a></li>
+            <li><a href="#team">团队风采</a></li>
+            <li><a href="#honor">荣誉榜</a></li>
+            <li><a href="#video">精彩视频</a></li>
         </ul>
     </nav>
 
     <!-- 主页横幅 -->
     <section id="home" class="hero">
+        <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1>欢迎来到我的网站</h1>
-            <p>这是一个简单而美观的网站模板</p>
-            <a href="#about" class="btn">了解更多</a>
+            <div class="hero-badge">🏆 全国一等奖</div>
+            <h1>Robocon 2024 颗粒归仓</h1>
+            <h2>西南科技大学 · 机器人小组</h2>
+            <p>第23届全国大学生机器人大赛</p>
+            <a href="#about" class="btn">了解比赛</a>
         </div>
     </section>
 
-    <!-- 关于部分 -->
+    <!-- 比赛介绍 -->
     <section id="about" class="section">
-        <h2 class="section-title">关于我们</h2>
-        <div class="cards">
-            <div class="card">
-                <div class="card-icon">🎯</div>
-                <h3>我们的使命</h3>
-                <p>致力于提供最优质的服务和产品，满足客户的各种需求。</p>
+        <h2 class="section-title">比赛介绍</h2>
+        <div class="about-content">
+            <div class="about-card main-card">
+                <div class="about-icon">🌾</div>
+                <h3>颗粒归仓</h3>
+                <p class="subtitle">Grain to Granary</p>
+                <p>Robocon 2024由越南主办，主题为"颗粒归仓"，灵感源自越南悠久的稻作文化。比赛模拟水稻从收割到入仓的全过程，考验机器人的精准操作与团队协作能力。</p>
             </div>
-            <div class="card">
-                <div class="card-icon">💡</div>
-                <h3>我们的愿景</h3>
-                <p>成为行业领先者，用创新思维推动社会发展。</p>
-            </div>
-            <div class="card">
-                <div class="card-icon">🤝</div>
-                <h3>我们的价值观</h3>
-                <p>诚信、创新、合作、共赢是我们的核心理念。</p>
+
+            <div class="rules-grid">
+                <div class="rule-card">
+                    <div class="rule-number">01</div>
+                    <h4>比赛任务</h4>
+                    <p>机器人需完成收集"粮食"（球体）、运输、并精准投入粮仓的任务</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-number">02</div>
+                    <h4>机器人配置</h4>
+                    <p>每队配备母机器人（手动控制）与子机器人（自主运行）协同作战</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-number">03</div>
+                    <h4>比赛时间</h4>
+                    <p>每场比赛限时3分钟，在规定时间内完成尽可能多的任务</p>
+                </div>
+                <div class="rule-card">
+                    <div class="rule-number">04</div>
+                    <h4>获胜条件</h4>
+                    <p>率先完成所有任务或比赛结束时得分更高的队伍获胜</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- 服务部分 -->
-    <section id="services" class="section section-alt">
-        <h2 class="section-title">我们的服务</h2>
-        <div class="services-list">
-            <div class="service-item">
-                <span class="service-number">01</span>
-                <h3>网站开发</h3>
-                <p>专业的网站设计与开发服务</p>
+    <!-- 机器人展示 -->
+    <section id="robot" class="section section-alt">
+        <h2 class="section-title">参赛机器人</h2>
+        <p class="section-desc">精心设计与调试，只为赛场上的完美表现</p>
+        <div class="robot-gallery">
+            <div class="robot-card">
+                <img src="机器人照片/Image_1780814950068_995.jpg" alt="参赛机器人">
+                <div class="robot-info">
+                    <h3>比赛机器人</h3>
+                    <p>专为颗粒归仓赛题设计的竞赛机器人</p>
+                </div>
             </div>
-            <div class="service-item">
-                <span class="service-number">02</span>
-                <h3>UI/UX 设计</h3>
-                <p>打造美观易用的用户界面</p>
-            </div>
-            <div class="service-item">
-                <span class="service-number">03</span>
-                <h3>技术咨询</h3>
-                <p>提供专业的技术解决方案</p>
+            <div class="robot-card">
+                <img src="机器人照片/Image_1780814955130_687.jpg" alt="参赛机器人">
+                <div class="robot-info">
+                    <h3>赛场英姿</h3>
+                    <p>在比赛中展现出色的性能</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- 联系部分 -->
-    <section id="contact" class="section">
-        <h2 class="section-title">联系我们</h2>
-        <div class="contact-form">
-            <form>
-                <input type="text" placeholder="您的姓名" required>
-                <input type="email" placeholder="您的邮箱" required>
-                <textarea placeholder="您的留言" rows="5" required></textarea>
-                <button type="submit" class="btn">发送消息</button>
-            </form>
+    <!-- 团队风采 -->
+    <section id="team" class="section">
+        <h2 class="section-title">团队风采</h2>
+        <p class="section-desc">团结协作，追求卓越</p>
+        <div class="team-gallery">
+            <div class="team-card large">
+                <img src="合照/Image_1780724447055_106.jpg" alt="团队合照">
+                <div class="team-overlay">
+                    <h3>西南科技大学机器人小组</h3>
+                    <p>Robocon 2024 参赛团队</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <img src="合照/Image_1780814741176_982.jpg" alt="团队合照">
+            </div>
+            <div class="team-card">
+                <img src="合照/Image_1780814816083_294.jpg" alt="团队合照">
+            </div>
+        </div>
+    </section>
+
+    <!-- 荣誉榜 -->
+    <section id="honor" class="section section-alt">
+        <h2 class="section-title">荣誉榜</h2>
+        <p class="section-desc">每一份荣誉都是团队努力的见证</p>
+        <div class="honor-gallery">
+            <div class="honor-card">
+                <img src="奖状/Image_1723025690983.png" alt="奖状">
+                <div class="honor-badge">🥇 全国一等奖</div>
+            </div>
+            <div class="honor-card">
+                <img src="奖状/Image_1723025693395.png" alt="奖状">
+            </div>
+            <div class="honor-card">
+                <img src="奖状/Image_1723025697951.png" alt="奖状">
+            </div>
+        </div>
+    </section>
+
+    <!-- 精彩视频 -->
+    <section id="video" class="section">
+        <h2 class="section-title">精彩视频</h2>
+        <p class="section-desc">记录每一个精彩瞬间</p>
+        <div class="video-gallery">
+            <div class="video-card">
+                <video controls>
+                    <source src="视频/Video_1780815099020_542.mp4" type="video/mp4">
+                    您的浏览器不支持视频播放
+                </video>
+            </div>
+            <div class="video-card">
+                <video controls>
+                    <source src="视频/Video_1780815173876_316.mp4" type="video/mp4">
+                    您的浏览器不支持视频播放
+                </video>
+            </div>
         </div>
     </section>
 
     <!-- 页脚 -->
     <footer>
-        <p>&copy; 2026 我的网站. 保留所有权利.</p>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>西南科技大学 · 机器人小组</h3>
+                <p>Southwest University of Science and Technology</p>
+                <p>Robot Team</p>
+            </div>
+            <div class="footer-award">
+                <span class="award-icon">🏆</span>
+                <span>Robocon 2024 全国一等奖</span>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 西南科技大学机器人小组. 保留所有权利.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
